@@ -29,4 +29,5 @@ abstract class BaseBloc {
     _loadingController.close();
     _progressController.close();
   }
+
 }

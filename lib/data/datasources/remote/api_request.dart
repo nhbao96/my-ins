@@ -54,6 +54,8 @@ class ApiRequest {
         }));
   }
 
+
+  
   Future addToCart(String idProduct) {
     return _dio.post(ApiConstant.ADD_CART,
         data: {"id_product": idProduct},
